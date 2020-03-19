@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Home page",
-    description: "Tomasz Zadrozny Home page",
+    description: "Tomasz Zadrozny home page",
     keywords: ["developer", "full stack", "javascript", "gatsby", "react"],
     siteUrl: "https://tomasz-zadrozny.netlify.com",
     author: {
@@ -16,5 +16,12 @@ module.exports = {
       sidebarWidth: 280
     }
   },
-  plugins: ["@pauliescanlon/gatsby-theme-terminal"]
+  plugins: [
+    {
+      resolve: `@pauliescanlon/gatsby-theme-terminal`,
+      options: {
+        source: ["recommendation-letters", "projects"]
+      }
+    }
+  ]
 };
