@@ -2,23 +2,23 @@
 navigationLabel: Home
 ---
 
-# Home
+## Home
 
-This is `src/pages/index.mdx`
+Hi! My name is Tomasz. 
 
-Here's a code snippet. It can also be customized using theme shadowing!
+I'm a softare developer living in Vienna
 
-```javascript
-<SourceList>
-  {source => (
-    <ul>
-      {source.map((edge, index) => {
-        const {
-          frontmatter: { title }
-        } = edge.node;
-        return <li key={index}>{title}</li>;
-      })}
-    </ul>
-  )}
-</SourceList>
-```
+
+## Contact
+
+<Heading variant='styles.h3' sx={{mb: 0}}>Email</Heading>
+<Link href='mailto:zadrozny.tomasz@gmail.com' variant='styles.a'>zadrozny.tomasz@gmail.com</Link>
+<Divider />
+
+<Heading variant='styles.h3' sx={{mb: 0}}>GitHub</Heading>
+<Link href='https://github.com/tomekz/' variant='styles.a'>https://github.com/tomekz/</Link>
+<Divider />
+
+<Heading variant='styles.h3' sx={{mb: 0}}>LinkedIn</Heading>
+<Link href='https://www.linkedin.com/in/tzadrozny/' variant='styles.a'>https://www.linkedin.com/in/tzadrozny/</Link>
+<Divider />

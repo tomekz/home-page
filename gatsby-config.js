@@ -1,9 +1,14 @@
 module.exports = {
   siteMetadata: {
-    name: "gatsby-starter-terminal",
-    description: "A Gatsby starter for @pauliescanlon/gatsby-theme-terminal",
-    keywords: ["tech", "blog", "boop"],
-    siteUrl: "https://gatsby-starter-terminal.netlify.com",
+    title: "Home page",
+    description: "Tomasz Zadrozny Home page",
+    keywords: ["developer", "full stack", "javascript", "gatsby", "react"],
+    siteUrl: "https://tomasz-zadrozny.netlify.com",
+    author: {
+      name: "Tomasz Zadrozny",
+      url: "https://github.com/tomekz",
+      email: "zadrozny.tomasz@gmail.com"
+    },
     siteImage: "terminal-open-graph-image.jpg",
     profileImage: ``,
     lang: `en`,

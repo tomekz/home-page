@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-terminal",
+  "name": "home-page",
   "private": true,
-  "description": "A Gatsby starter for gatsby-theme-terminal",
+  "description": "Gatsby Home page based on @pauliescanlon/gatsby-theme-terminal",
   "version": "0.1.0",
-  "author": "Paul Scanlon <pauliescanlon@gmail.com>",
+  "author": "Tomasz Zadrozny <zadrozny.tomasz@gmail.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.7",
     "@mdx-js/react": "^1.5.7",
@@ -34,9 +34,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PaulieScanlon/gatsby-starter-terminal"
+    "url": "https://github.com/tomekz/home-page"
   },
   "bugs": {
-    "url": "https://github.com/PaulieScanlon/gatsby-starter-terminal/issues"
+    "url": "https://github.com/tomekz/home-page/issues"
   }
 }

@@ -1,7 +1,7 @@
-## gatsby-starter-terminal
+## Home page
 
-This is a starter repo for [gatsby-theme-terminal](https://github.com/PaulieScanlon/gatsby-theme-terminal)
+Home page based on [gatsby-theme-terminal](https://github.com/PaulieScanlon/gatsby-theme-terminal)
 
 ## 👁️ Preview
 
-- [Live Demo](https://gatsby-theme-terminal.netlify.com/)
+- [Live Demo](https://tomasz-zadrozny.netlify.com/)
