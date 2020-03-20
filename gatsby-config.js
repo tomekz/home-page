@@ -22,6 +22,12 @@ module.exports = {
       options: {
         source: ["recommendation-letters", "projects"]
       }
+    },
+    {
+      resolve: "gatsby-plugin-google-analytics",
+      options: {
+        trackingId: "UA-35680516-2"
+      }
     }
   ]
 };
