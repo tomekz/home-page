@@ -1,9 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: "Home page",
-    description: "Tomasz Zadrozny home page",
-    keywords: ["developer", "full stack", "javascript", "gatsby", "react"],
-    siteUrl: "https://tomasz-zadrozny.netlify.com",
+    name: "Tomasz Zadrozny",
+    description: "Tomasz Zadrozny Home Page",
+    keywords: [
+      "developer",
+      "web",
+      "full stack",
+      "javascript",
+      "tomasz zadrozny",
+      "software"
+    ],
+    siteUrl: "https://tomekz.dev",
     author: {
       name: "Tomasz Zadrozny",
       url: "https://github.com/tomekz",
@@ -16,7 +23,22 @@ module.exports = {
       sidebarWidth: 280
     }
   },
+
   plugins: [
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        serialize: ({ site, allSitePage }) =>
+          allSitePage.edges.map(node => {
+            console.log({ node });
+            return {
+              url: `${site.siteMetadata.siteUrl}${node.node.path}`,
+              changefreq: `yearly`,
+              priority: 0.5
+            };
+          })
+      }
+    },
     {
       resolve: `@pauliescanlon/gatsby-theme-terminal`,
       options: {
