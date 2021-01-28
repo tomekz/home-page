@@ -42,7 +42,7 @@ module.exports = {
     {
       resolve: `@pauliescanlon/gatsby-theme-terminal`,
       options: {
-        source: ["recommendation-letters", "my-projects", "certifications"],
+        source: ["recommendation-letters", "my-projects", "certification"],
       },
     },
     {
